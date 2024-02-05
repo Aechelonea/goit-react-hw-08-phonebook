@@ -17,7 +17,7 @@ function App() {
   }, [dispatch]);
 
   return (
-    <Router>
+    <Router basename="/goit-react-hw-08-phonebook">
       <Navigation />
       <Routes>
         <Route path="/" element={<HomePage />} />
